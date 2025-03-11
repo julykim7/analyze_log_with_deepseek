@@ -44,7 +44,7 @@ def analyze_logs_with_deepseek(logs):
         "messages": [
             {
                 "role": "user",
-                "content": f"作为拥有20年经验的资深运维专家,把日志按照故障类型'数据库异常'、'程序异常'、'网络异常'、'redis异常'、'mq异常'等进行分类,并整体评估影响范围(P0-P3)给出建议：\n{combined_logs}"
+                "content": f"作为拥有30年经验的资深运维专家,把日志按照故障类型'数据库异常'、'程序异常'、'网络异常'、'redis异常'、'mq异常'等进行分类,并评估影响范围(P0-P3)给出建议：\n{combined_logs}"
             }
         ]
     }
